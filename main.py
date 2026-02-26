@@ -17,12 +17,12 @@ load_dotenv()
 
 # Configuration
 BOT_TOKEN = os.getenv('BOT_TOKEN')
-ADMIN_IDS = [int(id) for id in os.getenv('ADMIN_IDS', '').split(',')]  # Multiple admin support
+ADMIN_IDS = [int(id) for id in os.getenv('8405687963', '').split(',')]  # Multiple admin support
 SECRET_ADMIN_COMMAND = '/NAALLAGAMER'  # Secret admin panel command
 REQUIRED_CHANNELS = []  # Will be loaded from database
 MIN_WITHDRAWAL_UPI = 10  # Rs
 MIN_WITHDRAWAL_GATEWAY = 1  # Rs
-SUPPORT_CONTACT = "@YourSupport"  # Support username
+SUPPORT_CONTACT = "@NAALLAGAMER"  # Support username
 
 # Database setup
 def init_database():
